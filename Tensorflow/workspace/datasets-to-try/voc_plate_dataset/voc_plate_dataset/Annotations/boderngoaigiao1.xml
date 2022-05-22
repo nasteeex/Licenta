@@ -1,10 +1,7 @@
+
 <annotation>
-	<folder/>
-	<filename>boderngoaigiao1.jpg</filename>
-	<path>.\data\/boderngoaigiao1.jpg</path>
-	<source>
-		<database>Unknown</database>
-	</source>
+	<folder>images</folder>
+	<filename>boderngoaigiao1.png</filename>
 	<size>
 		<width>512</width>
 		<height>288</height>
@@ -12,9 +9,10 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>plate</name>
+		<name>licence</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
+		<occluded>0</occluded>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>262</xmin>
