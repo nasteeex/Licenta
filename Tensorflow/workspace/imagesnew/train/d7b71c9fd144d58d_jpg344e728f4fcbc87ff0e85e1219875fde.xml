@@ -1,6 +1,7 @@
+
 <annotation>
-	<folder></folder>
-	<filename>0e50ea14c4fc1353_jpg.rf.af1e1459644dca272075519bbb44bed1.png</filename>
+	<folder>imagesnew</folder>
+	<filename>d7b71c9fd144d58d_jpg344e728f4fcbc87ff0e85e1219875fde.png</filename>
 	<size>
 		<width>416</width>
 		<height>416</height>
@@ -14,10 +15,10 @@
 		<occluded>0</occluded>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>238</xmin>
-			<xmax>309</xmax>
-			<ymin>257</ymin>
-			<ymax>285</ymax>
+			<xmin>260</xmin>
+			<xmax>330</xmax>
+			<ymin>198</ymin>
+			<ymax>228</ymax>
 		</bndbox>
 	</object>
 </annotation>
