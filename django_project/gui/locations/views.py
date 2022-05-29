@@ -10,7 +10,7 @@ from locations.models import Locations
 class LocationsView(LoginRequiredMixin, ListView):
     model = Locations
     template_name = 'locations/locations_index.html'
-    paginate_by = 10
+    paginate_by = 2
 
 
 class CreateLocationsView(LoginRequiredMixin, CreateView):

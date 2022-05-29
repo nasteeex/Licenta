@@ -10,7 +10,7 @@ from safe.models import Safe
 class SafeView(LoginRequiredMixin, ListView):
     model = Safe
     template_name = 'safe/safe_index.html'
-    paginate_by = 10
+    paginate_by = 2
 
 
 class CreateSafeView(LoginRequiredMixin, CreateView):
