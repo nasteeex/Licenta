@@ -1,0 +1,12 @@
+Documentatie: 75% done; - 75.94% original, 12.91% referenced, 11.15% plagiarism
+
+Cod done:
+Detectie in timp real, ocr process, redundancy 50%, django gui
+Cod To do: Imagine de la Raspberry Pi, adaptare in functie de lumina si viteza, redundancy 50%, determinare urmaritor, alerta sms/mail, 
+incarcare BD in django gui, linkinng between tables, exe, comment, flip
+
+- Hardware (model, senzori, how to code)
+- Vizualizari antrenare si evaluare model
+- Extend dataset
+- Nvidia cuda dll
+- Sondaj?
