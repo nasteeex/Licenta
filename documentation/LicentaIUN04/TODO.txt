@@ -2,11 +2,18 @@ Documentatie: 75% done; - 75.94% original, 12.91% referenced, 11.15% plagiarism
 
 Cod done:
 Detectie in timp real, ocr process, redundancy 50%, django gui
-Cod To do: Imagine de la Raspberry Pi, adaptare in functie de lumina si viteza, redundancy 50%, determinare urmaritor, alerta sms/mail, 
-incarcare BD in django gui, linkinng between tables, exe, comment, flip
-
-- Hardware (model, senzori, how to code)
+Cod To do: 
+Imagine de la Raspberry Pi (Cautam si eu si domnul Nita, probabil trebuie schimbate bibliotecile, instalarile)
+adaptare in functie de lumina si viteza (sa vedem ce senzori avem)
+redundancy 50%
+determinare urmaritor (pe zile, pe ore)
+alerta sms/mail, 
+incarcare BD in django gui
+linkinng between tables (nu-i neaparat)
+exe (nu-i neaparat)
+comment, flip
 - Vizualizari antrenare si evaluare model
-- Extend dataset
-- Nvidia cuda dll
-- Sondaj?
+- Extend dataset (nu-i nevoie)
+- Nvidia cuda dll (nu-i nevoie)
+- Sondaj? (n-am intrebat)
+parallel pooling
