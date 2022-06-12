@@ -16,7 +16,6 @@ Document
 Flip
 
 Documentatie:
-Vizualizari antrenare si evaluare model
 Sondaj? (n-am intrebat)
 
 
