@@ -5,7 +5,6 @@ from datetime import datetime
 from time import sleep, perf_counter
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
 import easyocr
 import cv2
 import tensorflow as tf
@@ -23,6 +22,9 @@ from google.protobuf import text_format
 import GPUtil
 import shutil
 from threading import Thread
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 
 # ----- 0. Setup of Paths
 
