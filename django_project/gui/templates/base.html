@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav>
+                <a class="btn" href="/admin/">Admin</a>
+                {%  if request.user.is_authenticated %}
+                    <a class="btn" href="{% url 'cars:lista_masini' %}">Masinile Mele</a>
+                    <a class="btn" href="{% url 'danger:lista_pericol' %}">Masini periculoase</a>
+                    <a class="btn" href="{% url 'safe:lista_sigur' %}">Masini Sigure</a>
+                    <a class="btn" href="{% url 'locations:lista_locatii' %}">Locatile mele</a>
+                    <a class="btn" href="{% url 'detections:lista_detectii' %}">Detectii</a>
+                    <a class="btn" href={% url 'logout' %}>Logout</a>
+                    <span>Hi, {{ request.user.username|upper }}</span>
+                    {% if ready_to_track is False %}
+                        <a href="{% url 'userprofile:stop_tracker' %}" class="btn btn-success">Tracking activated</a>
+                    {% else %}
+                        <a href="{% url 'userprofile:start_tracker' %}" class="btn btn-danger">Tracking deactivated</a>
+                    {% endif %}
+                {% endif %}
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+
+</html>

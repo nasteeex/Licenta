@@ -1,0 +1,23 @@
+Documentatie: 75% done; - 75.94% original, 12.91% referenced, 11.15% plagiarism
+
+Cod done:
+Detectie in timp real, ocr process, redundancy 50%, django gui
+
+Cod To do: 
+Adapt code for Raspberry Pi (probabil trebuie schimbate bibliotecile, instalarile)
+Adaptare in functie de lumina si viteza (sa vedem ce senzori avem)
+Redundancy 50%
+Determinare urmaritor (pe zile, pe ore)
+Alerta sms/mail
+Parallel Pooling
+Incarcare BD in django gui
+Comment
+Document 
+Flip
+
+Documentatie:
+Sondaj? (n-am intrebat)
+
+
+Hardware:
+Raspberry Pi, senzori
