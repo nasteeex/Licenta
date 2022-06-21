@@ -10,7 +10,7 @@ from danger.models import Danger
 class DangerView(LoginRequiredMixin, ListView):
     model = Danger
     template_name = 'danger/danger_index.html'
-    paginate_by = 2
+    paginate_by = 5
 
 
 class CreateDangerView(LoginRequiredMixin, CreateView):

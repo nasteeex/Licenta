@@ -10,7 +10,7 @@ from cars.models import Cars
 class CarsView(LoginRequiredMixin, ListView):
     model = Cars
     template_name = 'cars/cars_index.html'
-    paginate_by = 2
+    paginate_by = 5
 
 
 class CreateCarsView(LoginRequiredMixin, CreateView):

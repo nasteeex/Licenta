@@ -10,7 +10,7 @@ from detections.models import Detections
 class DetectionsView(LoginRequiredMixin, ListView):
     model = Detections
     template_name = 'detections/detections_index.html'
-    paginate_by = 2
+    paginate_by = 5
 
 
 class CreateDetectionsView(LoginRequiredMixin, CreateView):
