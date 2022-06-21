@@ -2,7 +2,7 @@ import os
 from os import listdir
 from os.path import isfile, join
 from datetime import datetime
-from time import sleep, perf_counter
+from time import perf_counter
 import numpy as np
 import pandas as pd
 import easyocr
@@ -19,7 +19,6 @@ from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
 from google.protobuf import text_format
-import GPUtil
 import shutil
 from threading import Thread
 import matplotlib
