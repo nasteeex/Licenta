@@ -437,8 +437,6 @@ def process_plate(strings_unreadable, dates, timestamps, filenames):
         Returns:
         string_final (str): processed plate"""
 
-    string_final = ''
-
     # print(f'Placute neprocesate:\n{strings_unreadable}\n')
 
     break_flag = False
@@ -460,6 +458,7 @@ def process_plate(strings_unreadable, dates, timestamps, filenames):
         timestamp_kept = timestamps[maximum_index_unreadable]
         filename_kept = filenames[maximum_index_unreadable]
     else:
+        from numpy.random.mtrand import random
         maximum_index_unreadable = random.randrange(0, len(counts_unreadable))
         date_kept = dates[maximum_index_unreadable]
         timestamp_kept = timestamps[maximum_index_unreadable]
@@ -556,6 +555,9 @@ def process_plate(strings_unreadable, dates, timestamps, filenames):
                 maximum_local_index = factori_placuta[index].index(maximum_local)
                 # print(f'Pentru indexul {index} am ales {elem[maximum_local_index]}')
                 string_final = string_final + elem[maximum_local_index]
+
+    string_final = string_final.replace(' ', '')
+    string_final = string_final.upper()
 
     print(f'\nPlacuta finala: {string_final}')
     # print(f'\nPreluata la data de: {date_kept}')
